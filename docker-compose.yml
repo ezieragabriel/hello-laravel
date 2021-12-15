@@ -2,9 +2,6 @@ version: "3.7"
 services:
   app:
     build:
-      args:
-        user: ezi
-        uid: 1000
       context: ./
       dockerfile: Dockerfile
     image: yvanne22/hello-laravel:1.0.0
