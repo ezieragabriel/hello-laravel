@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         app: hello-laravel
+      annotations:
+        linkerd.io/inject: enabled
     spec:
       containers:
         - name: app
@@ -42,6 +44,8 @@ spec:
     metadata:
       labels:
         app: nginx
+      annotations:
+        linkerd.io/inject: enabled
     spec:
       volumes:
         - name: nginx-conf
