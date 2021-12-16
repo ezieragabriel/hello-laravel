@@ -7,7 +7,7 @@ services:
         uid: 1000
       context: ./
       dockerfile: Dockerfile
-    image: yvanne22/hello-laravel:1.0.0
+    image: yvanne22/hello-laravel:1.0.1
     container_name: hello-world
     restart: unless-stopped
     working_dir: /var/www/
