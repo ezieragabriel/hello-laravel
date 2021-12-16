@@ -7,7 +7,6 @@ A simple project that runs a php-laravel web application in kubernetes.
 1. local kubernets cluster (minikube, kind, k3s, etc.)
 2. kubectl cli (installation guide [here](https://kubernetes.io/docs/tasks/tools/#kubectl))
 3. (optional) helm
-4. (optional) minikube ingress
 
 ## Running the app
 1. Clone the repository
