@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-laravel
+spec:
+  selector:
+    app: hello-laravel
+  ports:
+    - protocol: TCP
+      port: 9000
+      targetPort: 9000
